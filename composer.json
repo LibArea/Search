@@ -1,0 +1,26 @@
+{
+  "name": "evgip/search",
+  "description": "Search engine for PHP sites",
+  "authors": [
+    {
+      "name": "Evg",
+      "email": "budo@narod.ru"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "symfony/polyfill-mbstring": "^1.2",
+    "psr/log": "^1.1|^2.0|^3.0"
+  },
+  "suggest": {
+    "ext-dom": "*",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Search\\": "src/Search"
+    }
+  }
+}
